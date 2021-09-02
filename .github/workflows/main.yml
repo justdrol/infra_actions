@@ -6,7 +6,7 @@ on:
 
 jobs:
   tests:
-    name: Install environment and run tests
+    name: Run tests
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
