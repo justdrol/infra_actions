@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'k9gwcfq01xszx2(_4e#gc3u$rt=)y6ivx=$wt+5&-^ktk4dg4e'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', '62.84.113.27']
+ALLOWED_HOSTS = ['62.84.113.27', 'localhost', 'yatubejd.ml', 'www.yatubejd.ml']
 
 
 # Application definition
