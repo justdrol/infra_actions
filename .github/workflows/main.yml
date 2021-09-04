@@ -58,7 +58,7 @@ jobs:
           host: ${{ secrets.HOST_IP }}
           username: ${{ secrets.HOST_USER }}
           key: ${{ secrets.PRIVATE_SSH_KEY }}
-          passphrase: ${{ secrets.PRIVATE_SSH_KEY_PASSPHRASE }} # Если ваш ssh-ключ защищён фразой-паролем
+          passphrase: ${{ secrets.PRIVATE_SSH_KEY_PASSPHRASE }}
           script: |
             sudo docker pull justdrol/infra_actions
             sudo docker stop $(sudo docker ps -a -q)
