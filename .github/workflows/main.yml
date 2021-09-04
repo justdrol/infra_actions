@@ -75,5 +75,4 @@ jobs:
           to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
           message: |
-            The workflow "${{ github.workflow }}" from
-            repository { repo } is successfully completed!
+            The workflow "${{ github.workflow }}" from repository {{ repo }} is successfully completed!
